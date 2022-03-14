@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div class="m-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+          <div class="container-fluid navbar-header">
             <a href="#" class="navbar-brand">
               <img
                 class="navbar-image"
@@ -44,6 +44,47 @@ export default function App() {
             </div>
           </div>
         </nav>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src={logo} alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">
+              Go somewhere
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src={logo} alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">
+              Go somewhere
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src={logo} alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">
+              Go somewhere
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

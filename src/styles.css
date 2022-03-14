@@ -15,3 +15,14 @@ main {
   font-family: "Lucida Handwriting", "Open Sans";
   font-size: 80%;
 }
+
+.navbar-header {
+  background-color: gainsboro;
+}
+
+.card {
+  margin-right: auto;
+  padding: 10 px 16 px;
+  max-width: 400px;
+  max-height: 200px;
+}
