@@ -30,13 +30,10 @@ export default function App() {
                   Home
                 </a>
                 <a href="#" class="nav-item nav-link">
-                  Profile
+                  Poems
                 </a>
                 <a href="#" class="nav-item nav-link">
-                  Messages
-                </a>
-                <a href="#" class="nav-item nav-link disabled" tabindex="-1">
-                  Reports
+                  Blogs
                 </a>
               </div>
               <div class="navbar-nav ms-auto">
