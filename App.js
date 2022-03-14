@@ -8,13 +8,7 @@ export default function App() {
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a href="#" class="navbar-brand">
-              <img
-                class="navbar-image"
-                src={logo}
-                height="28"
-                alt="CoolBrand"
-              />{" "}
-              Euphonious Poems
+              <img src={logo} height="28" alt="CoolBrand" />
             </a>
             <button
               type="button"
