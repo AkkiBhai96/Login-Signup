@@ -62,3 +62,7 @@ main {
   border-right-color: transparent;
   margin-left: -60%;
 }
+.footer {
+  background-color: gainsboro;
+  width: 100%;
+}

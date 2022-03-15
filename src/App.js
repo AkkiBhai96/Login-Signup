@@ -1,9 +1,11 @@
 import "./styles.css";
 import logo from "../images/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function App() {
   return (
     <div className="App">
+      {/* Start for NavBar*/}
       <div class="m-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid navbar-header">
@@ -48,7 +50,8 @@ export default function App() {
           </div>
         </nav>
       </div>
-      {/* start for First cetagrory */}
+      {/* End for NavBar*/}
+      {/* start for First cetagory */}
       <div class="conatiner-fluid">
         <p>
           <span class="card-Category">Desire</span>
@@ -174,9 +177,9 @@ export default function App() {
           </div>
         </div>
       </div>
-      {/* End for second cetagrory */}
+      {/* End for second cetagory */}
 
-      {/* start for Third cetagrory */}
+      {/* start for Third cetagory */}
       <br />
       <div class="conatiner-fluid">
         <p>
@@ -239,7 +242,43 @@ export default function App() {
           </div>
         </div>
       </div>
-      {/* End for Third cetagrory */}
+      {/* End for Third cetagory */}
+      {/* Start for Footer */}
+      <br />
+      <div class="container">
+        <div class="footer">
+          <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+            <div class="col-md-8 col-12 mt-5">
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur.
+              </p>
+            </div>
+          </div>
+          <hr class="clearfix d-md-none rgba-white-light" />
+          <div class="row pb-3">
+            <div class="col-md-12">
+              <div class="mb-5 flex-center">
+                <div>
+                  <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
+                  <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" />
+                  <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
+                  <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3">
+        © 2022 Copyright:
+        <a href="#">BetaArrays</a>
+      </div>
+      {/* End for Footer */}
     </div>
   );
 }
