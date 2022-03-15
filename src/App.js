@@ -13,7 +13,7 @@ export default function App() {
                 src={logo}
                 height="28"
                 alt="CoolBrand"
-              />{" "}
+              />
               Euphonious Poems
             </a>
             <button
@@ -27,13 +27,16 @@ export default function App() {
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <div class="navbar-nav">
                 <a href="#" class="nav-item nav-link active">
-                  Home
+                  HOME
                 </a>
                 <a href="#" class="nav-item nav-link">
-                  Poems
+                  FAQ
                 </a>
                 <a href="#" class="nav-item nav-link">
-                  Blogs
+                  CONTACT US
+                </a>
+                <a href="#" class="nav-item nav-link">
+                  BLOGS
                 </a>
               </div>
               <div class="navbar-nav ms-auto">
@@ -45,12 +48,18 @@ export default function App() {
           </div>
         </nav>
       </div>
+      {/* start for First cetagrory */}
+      <div class="conatiner-fluid">
+        <p>
+          <span class="card-Category">Desire</span>
+        </p>
+      </div>
       <div class="container-fluid card-container">
         <div class="card-group">
           <div class="card">
             <img class="card-img-top" src={logo} alt="Card image cap" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <p class="card-title">Card title</p>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -63,7 +72,7 @@ export default function App() {
           <div class="card">
             <img class="card-img-top" src={logo} alt="Card image cap" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <p class="card-title">Card title</p>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -76,7 +85,20 @@ export default function App() {
           <div class="card">
             <img class="card-img-top" src={logo} alt="Card image cap" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -88,6 +110,136 @@ export default function App() {
           </div>
         </div>
       </div>
+      {/* End for First cetagrory */}
+      {/* start for second cetagrory */}
+      <br />
+      <div class="conatiner-fluid">
+        <p>
+          <span class="card-Category">Love</span>
+        </p>
+      </div>
+      <div class="container-fluid card-container">
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End for second cetagrory */}
+
+      {/* start for Third cetagrory */}
+      <br />
+      <div class="conatiner-fluid">
+        <p>
+          <span class="card-Category">Inspirational</span>
+        </p>
+      </div>
+      <div class="container-fluid card-container">
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src={logo} alt="Card image cap" />
+            <div class="card-body">
+              <p class="card-title">Card title</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End for Third cetagrory */}
     </div>
   );
 }

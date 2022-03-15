@@ -19,12 +19,46 @@ main {
 .navbar-header {
   background-color: gainsboro;
 }
-
+.nav-item {
+  font-family: "Comic Sans MS", "Open Sans";
+  font-size: 70%;
+}
 .card {
   margin-right: auto;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .card-container {
   padding: 10px 50px;
+}
+
+.card-img-top {
+  height: 250px;
+}
+.card-text {
+  font-family: "Lucida Bright", "Open Sans";
+  font-size: 80%;
+}
+.card-title {
+  font-family: "Impact", "Open Sans";
+  font-size: 120%;
+}
+
+.card-Category {
+  font-family: "MV Boli", "Open Sans";
+  font-size: 120%;
+  position: relative;
+}
+.card-Category:before {
+  content: "";
+  z-index: -1;
+  top: 15%;
+  border-width: 0.5em;
+  border-style: solid;
+  border-color: rgb(157, 197, 177);
+  position: absolute;
+  width: 220%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  margin-left: -60%;
 }
