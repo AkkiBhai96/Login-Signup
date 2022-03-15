@@ -22,6 +22,9 @@ main {
 
 .card {
   margin-right: auto;
-  padding: 10 px 16 px;
   max-width: 400px;
+}
+
+.card-container {
+  padding: 10px 50px;
 }
